@@ -1,0 +1,48 @@
+h1{
+    height: 100%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+#busca{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  width: 160px;
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s ease;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  margin: 10px 0;
+}
+
+footer{
+    height: 100%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+}
+
